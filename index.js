@@ -5,7 +5,7 @@ function takeANumber(katzDeliLine, name) {
 
 
 function takeANumber(katzDeliLine) {
-  let number = 1;
+  let number = katzDeliLine.length + 1;
   katzDeliLine.push(number);
   return `Welcome, you are number ${number}.`;
 }
