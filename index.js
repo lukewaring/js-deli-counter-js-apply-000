@@ -3,14 +3,12 @@ function takeANumber(katzDeliLine, name) {
   return `Welcome, ${name}. You are number ${katzDeliLine.indexOf(name) + 1} in line.`;  
 }
 
-
-function takeANumber(katzDeliLine) {
-  let number = katzDeliLine.length + 1;
-  katzDeliLine.push(number);
-  return `Welcome, you are number ${number}.`;
-}
-
-
+//Technical interview coding challenge
+// function takeANumber(katzDeliLine) {
+//   let number = katzDeliLine.length + 1;
+//   katzDeliLine.push(number);
+//   return `Welcome, you are number ${number}.`;
+// }
 
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length === 0) {
